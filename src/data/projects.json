@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "slug": "fitlog",
+    "name": "FitLog",
+    "category": "Fitness Application",
+    "description": "A fitness tracking application designed to help users manage their fitness journey and monitor their progress.",
+    "technologies": ["Next.js", "React", "Tailwind CSS"],
+    "image": "/images/projects/fitlog.png",
+    "liveUrl": "https://fit-log-roan-three.vercel.app/",
+    "githubUrl": "https://github.com/mashrafe313/fitlog",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "devstack",
+    "name": "DevStack",
+    "category": "Web Application",
+    "description": "A developer-focused web project built to provide a useful and engaging digital experience.",
+    "technologies": ["React", "JavaScript", "CSS"],
+    "image": "/images/projects/devstack.png",
+    "liveUrl": "https://dev-stack-2.netlify.app/",
+    "githubUrl": "https://github.com/mashrafe313",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "devconf-2026",
+    "name": "DevConf 2026",
+    "category": "Event Website",
+    "description": "A technology conference landing page showcasing event information and a modern web interface.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "/images/projects/devconf.png",
+    "liveUrl": "https://mashrafe313.github.io/PH_assignment-1_DevConf2026/",
+    "githubUrl": "https://github.com/mashrafe313/PH_assignment-1_DevConf2026",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "bazar-dor",
+    "name": "Bazar Dor",
+    "category": "Market Price Application",
+    "description": "A Bangladeshi market price application designed to help users explore daily grocery prices and compare market information.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+    "image": "/images/projects/bazardor.png",
+    "liveUrl": "https://bazar-dor-mash.vercel.app",
+    "githubUrl": "https://github.com/mashrafe313/bazar-dor",
+    "featured": true
+  }
+]
