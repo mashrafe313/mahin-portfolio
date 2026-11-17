@@ -239,114 +239,109 @@ export default function Home() {
       {/* CLUBS & LEADERSHIP SECTION */}
       <Clubs />
 
-      {/* CONTACT SECTION */}
-      <section
-        id="contact"
-        className="section-padding border-t border-[#E7E0D3]"
-      >
-        <div className="container-custom">
-          <div className="border border-[#E7E0D3] bg-white p-6 sm:p-10 lg:p-12">
-            <div className="grid gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-center">
-              {/* CONTACT INTRO */}
-              <div>
-                <p className="retro-label mb-3">Get in touch</p>
+      
+{/* CONTACT SECTION */}
+<section
+  id="contact"
+  className="section-padding border-t border-[#E7E0D3]"
+>
+  <div className="container-custom">
+    <div className="border border-[#E7E0D3] bg-white p-5 sm:p-10 lg:p-12">
+      <div className="grid min-w-0 gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-center md:gap-10">
+        {/* CONTACT INTRO */}
+        <div className="min-w-0">
+          <p className="retro-label mb-3">Get in touch</p>
 
-                <h2 className="max-w-xl text-3xl leading-tight font-bold text-[#344E41] sm:text-5xl">
-                  Have an idea?
-                  <span className="block italic text-[#C65D3A]">
-                    Let's build it.
-                  </span>
-                </h2>
+          <h2 className="max-w-xl text-3xl leading-tight font-bold text-[#344E41] sm:text-5xl">
+            Have an idea?
+            <span className="block italic text-[#C65D3A]">
+              Let's build it.
+            </span>
+          </h2>
 
-                <p className="mt-4 max-w-lg text-sm leading-7 text-[#77776F]">
-                  I'm always interested in connecting with people,
-                  exploring opportunities and discussing creative ideas.
-                  Feel free to reach out.
-                </p>
-              </div>
-
-              {/* CONTACT LINKS */}
-              <div className="flex flex-col gap-3">
-                {/* EMAIL */}
-                <a
-                  href="mailto:mahin.mashrafe707@gmail.com"
-                  className="group flex items-center justify-between border border-[#E7E0D3] p-4 transition-all hover:border-[#344E41] hover:bg-[#F5F1E8]"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className="flex h-10 w-10 items-center justify-center bg-[#F5F1E8] text-[#C65D3A] group-hover:bg-white">
-                      <Mail size={19} />
-                    </div>
-
-                    <div>
-                      <p className="text-xs text-[#77776F]">Email</p>
-                      <p className="text-sm font-medium text-[#344E41]">
-                        mahin.mashrafe707@gmail.com
-                      </p>
-                    </div>
-                  </div>
-
-                  <ArrowUpRight
-                    size={17}
-                    className="text-[#77776F] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#C65D3A]"
-                  />
-                </a>
-
-                {/* LINKEDIN */}
-                <a
-                  href="https://www.linkedin.com/in/mashrafe313"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center justify-between border border-[#E7E0D3] p-4 transition-all hover:border-[#344E41] hover:bg-[#F5F1E8]"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className="flex h-10 w-10 items-center justify-center bg-[#F5F1E8] text-[#C65D3A] group-hover:bg-white">
-                      <LinkedInIcon />
-                    </div>
-
-                    <div>
-                      <p className="text-xs text-[#77776F]">LinkedIn</p>
-                      <p className="text-sm font-medium text-[#344E41]">
-                        Connect with me
-                      </p>
-                    </div>
-                  </div>
-
-                  <ArrowUpRight
-                    size={17}
-                    className="text-[#77776F] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#C65D3A]"
-                  />
-                </a>
-
-                {/* GITHUB */}
-                <a
-                  href="https://github.com/mashrafe313"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center justify-between border border-[#E7E0D3] p-4 transition-all hover:border-[#344E41] hover:bg-[#F5F1E8]"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className="flex h-10 w-10 items-center justify-center bg-[#F5F1E8] text-[#C65D3A] group-hover:bg-white">
-                      <GithubIcon />
-                    </div>
-
-                    <div>
-                      <p className="text-xs text-[#77776F]">GitHub</p>
-                      <p className="text-sm font-medium text-[#344E41]">
-                        Explore my projects
-                      </p>
-                    </div>
-                  </div>
-
-                  <ArrowUpRight
-                    size={17}
-                    className="text-[#77776F] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#C65D3A]"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
+          <p className="mt-4 max-w-lg text-sm leading-7 text-[#77776F]">
+            I'm always interested in connecting with people,
+            exploring opportunities and discussing creative ideas.
+            Feel free to reach out.
+          </p>
         </div>
-      </section>
+
+        {/* CONTACT LINKS */}
+        <div className="flex min-w-0 flex-col gap-3">
+          {/* EMAIL */}
+          <a
+            href="mailto:mahin.mashrafe707@gmail.com"
+            className="group flex min-w-0 items-center gap-2 border border-[#E7E0D3] p-3 transition-all hover:border-[#344E41] hover:bg-[#F5F1E8] sm:gap-4 sm:p-4"
+          >
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center bg-[#F5F1E8] text-[#C65D3A] group-hover:bg-white">
+              <Mail size={19} />
+            </div>
+
+            <div className="min-w-0 flex-1">
+              <p className="text-xs text-[#77776F]">Email</p>
+              <p className="break-all text-xs font-medium text-[#344E41] sm:text-sm">
+                mahin.mashrafe707@gmail.com
+              </p>
+            </div>
+
+            <ArrowUpRight
+              size={17}
+              className="shrink-0 text-[#77776F] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#C65D3A]"
+            />
+          </a>
+
+          {/* LINKEDIN */}
+          <a
+            href="https://www.linkedin.com/in/mashrafe313"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex min-w-0 items-center gap-2 border border-[#E7E0D3] p-3 transition-all hover:border-[#344E41] hover:bg-[#F5F1E8] sm:gap-4 sm:p-4"
+          >
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center bg-[#F5F1E8] text-[#C65D3A] group-hover:bg-white">
+              <LinkedInIcon />
+            </div>
+
+            <div className="min-w-0 flex-1">
+              <p className="text-xs text-[#77776F]">LinkedIn</p>
+              <p className="text-sm font-medium text-[#344E41]">
+                Connect with me
+              </p>
+            </div>
+
+            <ArrowUpRight
+              size={17}
+              className="shrink-0 text-[#77776F] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#C65D3A]"
+            />
+          </a>
+
+          {/* GITHUB */}
+          <a
+            href="https://github.com/mashrafe313"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex min-w-0 items-center gap-2 border border-[#E7E0D3] p-3 transition-all hover:border-[#344E41] hover:bg-[#F5F1E8] sm:gap-4 sm:p-4"
+          >
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center bg-[#F5F1E8] text-[#C65D3A] group-hover:bg-white">
+              <GithubIcon />
+            </div>
+
+            <div className="min-w-0 flex-1">
+              <p className="text-xs text-[#77776F]">GitHub</p>
+              <p className="text-sm font-medium text-[#344E41]">
+                Explore my projects
+              </p>
+            </div>
+
+            <ArrowUpRight
+              size={17}
+              className="shrink-0 text-[#77776F] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#C65D3A]"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* FOOTER */}
       <Footer />
